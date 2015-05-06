@@ -1,5 +1,5 @@
-cubeurl
-=======
+algurl
+======
 
 Easily create URLs for [alg.cubing.net](https://alg.cubing.net/).
 
@@ -8,9 +8,9 @@ Usage
 =====
 
 ```javascript
-var cubeurl = require("cubeurl");
+var algurl = require("algurl");
 
-cubeurl({
+algurl({
   setup: "R U R' U'",
   alg: "U R U' R'"
 });
@@ -20,7 +20,7 @@ cubeurl({
 API
 ===
 
-##cubeurl(`<options object>`)
+##algurl(`<options object>`)
 
 ###options:
 

@@ -1,5 +1,5 @@
 var assert = require("assert");
-var cubeurl = require("./index");
+var algurl = require("./index");
 
 var url = require("url");
 var querystring = require("querystring");
@@ -15,7 +15,7 @@ describe("creating urls", function() {
     assertQueryMatches({
       setup: "R_U_R-_U-",
       alg: "U_R_U-_R-"
-    }, cubeurl({
+    }, algurl({
       setup: "R U R' U'",
       alg: "U R U' R'"
     }));
@@ -25,7 +25,7 @@ describe("creating urls", function() {
     assertQueryMatches({
       alg: "R_U_R-_U-",
       type: "reconstruction-end-with-setup"
-    }, cubeurl({
+    }, algurl({
       alg: "R U R' U'",
       isReconstruction: true
     }));
@@ -33,7 +33,7 @@ describe("creating urls", function() {
     assertQueryMatches({
       alg: "R_U_R-_U-",
       type: "alg"
-    }, cubeurl({
+    }, algurl({
       alg: "R U R' U'"
     }));
   });
@@ -43,7 +43,7 @@ describe("creating urls", function() {
       setup: "R_U_R-_U-",
       puzzle: "2x2x2",
       stage: "WV"
-    }, cubeurl({
+    }, algurl({
       setup: "R U R' U'",
       puzzle: "2x2x2",
       stage: "WV"
