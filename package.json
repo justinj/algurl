@@ -1,0 +1,17 @@
+{
+  "name": "algurl",
+  "version": "0.0.1",
+  "description": "Friendly interface to generate URLs for alg.cubing.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "rubik"
+  ],
+  "author": "Justin Jaffray",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
