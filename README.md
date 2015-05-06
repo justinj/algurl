@@ -3,6 +3,12 @@ algurl
 
 Easily create URLs for [alg.cubing.net](https://alg.cubing.net/).
 
+Install
+=======
+
+```bash
+$ npm install --save algurl
+```
 
 Usage
 =====
